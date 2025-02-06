@@ -21,6 +21,14 @@ This project focuses on detecting the status of face mask usage in real-time usi
 * Detection Confidence Score
 
 * Processed images/videos with bounding boxes
+## 📁 Introducing the dataset
+The dataset used is “Face Mask Detection-2 Computer Vision
+Project”, which consists of 4,976 images collected from Roboflow. The dataset includes 3 labels:
+“Incorrect_Mask”, “With_Mask” and “Without_Mask”, each label is clearly annotated
+. The data is divided into three sets: train, validation and test, with the number of images being 3,790
+for the training set, 732 for the validation set and 454 for the test set, respectively.
+
+  👉 Link Dataset: https://universe.roboflow.com/ammar-workspace/face-mask-detection-2-oezvq/dataset/4/download
 ## ⏱️ Predict in real time
 This video uses a laptop webcam to predict whether a person is wearing a mas
 
