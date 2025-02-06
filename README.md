@@ -7,14 +7,12 @@ This project focuses on detecting the status of face mask usage in real-time usi
 * Without Mask – No face mask detected.
 
 * Mask Worn Incorrectly – The mask is not worn correctly (e.g., below the nose).
-
 ## 🔍 Introduction
 ### Input:
 * Live Video Stream (via webcam)
 
 * Image Files (JPG, PNG, etc.)
 
-* Video Files (MP4, AVI, etc.)
 ### Output:
 * Annotated Video Stream (with bounding boxes and labels: "With Mask", "Without Mask", "Incorrect Mask")
 
