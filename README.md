@@ -28,7 +28,7 @@ for the training set, 732 for the validation set and 454 for the test set, respe
 
   👉 Link Dataset: https://universe.roboflow.com/ammar-workspace/face-mask-detection-2-oezvq/dataset/4/download
 ## ⏱️ Predict in real time
-This video uses a laptop webcam to predict whether a person is wearing a mas
+This video uses a laptop webcam to predict whether a person is wearing a mask
 
 ![Demo](demo/mask_detection.gif)
 ## 📸 Predict in images
@@ -41,7 +41,7 @@ The predicted image will display the corresponding prediction results. Users jus
 ### Clone the Repository
     git clone https://github.com/danghohai2004/FaceMaskDetection-YOLOv10s.git
     cd FaceMaskDetection-YOLOv10s
-### Install Dependencies
+### Install Dependencies (Python 3.9.12)
     pip install -r requirements.txt
 ### Run Mask Detection code in real time
     python mask_detection.py
